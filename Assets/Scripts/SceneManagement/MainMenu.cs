@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
     public void PlayButton(string scenename)
     {
 
-        SceneManager.LoadScene(scenename);
+        SceneManager.LoadScene("HitSystemTest");
     }
 
     public void QuitButton()
