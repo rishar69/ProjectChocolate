@@ -3,11 +3,10 @@ using UnityEngine;
 
 public class MusicManager : MonoBehaviour
 {
-    public static MusicManager Instance { get; private set; }
+    public static MusicManager Instance;
 
     [SerializeField] private MusicLibrary musicLibrary;
     [SerializeField] private AudioSource musicSource;
-
 
     public void PlayMusic(string trackName, float fadeDuration = 0.7f)
     {

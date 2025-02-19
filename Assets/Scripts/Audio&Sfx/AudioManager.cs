@@ -7,7 +7,28 @@ public class AudioManager : MonoBehaviour
 
     public AudioMixer audioMixer;
     public Slider masterSlider, musicSlider, sfxSlider;
+    public static AudioManager Instance;
+    public MusicManager MusicManager { get; private set; }
 
+    public static SFXManager SFXManager { get; private set; }
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject);
+
+        // Cari MusicManager yang ada di dalam AudioManager
+        MusicManager = GetComponentInChildren<MusicManager>();
+
+        if (MusicManager == null)
+        {
+            Debug.LogError("MusicManager not found as a child of AudioManager!");
+        }
+    }
     private void OnEnable()
     {
         LoadVolume();
@@ -41,9 +62,9 @@ public class AudioManager : MonoBehaviour
 
     public void LoadVolume()
     {
-            masterSlider.value= PlayerPrefs.GetFloat("MasterVolume", defaultValue:0f);  
-            musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", defaultValue: 0f);
-            sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume", defaultValue: 0f);
-       
+        masterSlider.value = PlayerPrefs.GetFloat("MasterVolume", defaultValue: 0f);
+        musicSlider.value = PlayerPrefs.GetFloat("MusicVolume", defaultValue: 0f);
+        sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume", defaultValue: 0f);
+
     }
 }

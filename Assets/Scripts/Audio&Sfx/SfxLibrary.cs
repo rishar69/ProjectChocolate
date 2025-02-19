@@ -1,16 +1,24 @@
 using UnityEngine;
 
-public class SfxLibrary : MonoBehaviour
+[System.Serializable]
+public struct SoundEffect
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public string groupID;
+    public AudioClip[] clips;
+}
+public class SFXLibrary : MonoBehaviour
+{
+    public SoundEffect[] soundEffects;
 
-    // Update is called once per frame
-    void Update()
+    public AudioClip GetClipFromName(string name)
     {
-        
+        foreach (var soundEffect in soundEffects)
+        {
+            if (soundEffect.groupID == name)
+            {
+                return soundEffect.clips[Random.Range(0, soundEffect.clips.Length)];
+            }
+        }
+        return null;
     }
 }
