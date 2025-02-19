@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -41,3 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Note
+    uniqueID: 1799491887
+    locked: 0
+  - name: Player
+    uniqueID: 2654310193
+    locked: 0
+  - name: HitCircle
+    uniqueID: 3490669637
+    locked: 0
+  - name: 
+    uniqueID: 1617498347
+    locked: 0
+  m_RenderingLayers:
+  - Default
