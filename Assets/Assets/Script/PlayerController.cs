@@ -34,7 +34,11 @@ public class PlayerController : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(buttonW) || Input.GetKeyDown(buttonS)) { isHitting = true; Delay(0.001f); }
+        HittingControll();
+        TwoBuuttonTiming();
+    }
+    void TwoBuuttonTiming()
+    {
         // Cek jika tombol W atau S ditekan untuk pertama kali
         if (isFirstButtonPressed == false && (Input.GetKeyDown(buttonW) || Input.GetKeyDown(buttonS)))
         {
@@ -97,6 +101,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+    void HittingControll() { if (Input.GetKeyDown(buttonW) || Input.GetKeyDown(buttonS)) { isHitting = true; Delay(0.001f); } }
     private IEnumerator MoveBackAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
