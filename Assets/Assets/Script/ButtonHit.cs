@@ -10,6 +10,7 @@ public class ButtonHit : MonoBehaviour
     public Color originalSprite;
     public GameObject player;
     public KeyCode hitButton;
+    public Rigidbody2D hitRb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,6 +18,7 @@ public class ButtonHit : MonoBehaviour
         playerAnimator = player.GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalSprite = spriteRenderer.color;
+        hitRb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -27,8 +29,10 @@ public class ButtonHit : MonoBehaviour
             playerAnimator.SetTrigger("pressed");
             spriteRenderer.color = pressedSprite;
             buttonToTheLeftPos = new Vector3(player.transform.position.x, transform.position.y, 0f);
-            //player.transform.position = new Vector3(player.transform.position.x, transform.position.y, 0f);
             player.transform.position = Vector3.Lerp(player.transform.position,buttonToTheLeftPos,2f);
+            AudioManager.SFXManager.PlaySound2D("Miss");
+            hitRb.bodyType = RigidbodyType2D.Kinematic;
+            hitRb.angularVelocity = 3f;
         }
 
         if (Input.GetKeyUp(hitButton))
