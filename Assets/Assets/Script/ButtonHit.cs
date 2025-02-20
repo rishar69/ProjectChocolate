@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 
 public class ButtonHit : MonoBehaviour
 {
@@ -28,7 +29,7 @@ public class ButtonHit : MonoBehaviour
             spriteRenderer.color = pressedSprite;
             buttonToTheLeftPos = new Vector3(player.transform.position.x, transform.position.y, 0f);
             //player.transform.position = new Vector3(player.transform.position.x, transform.position.y, 0f);
-            player.transform.position = Vector3.Lerp(player.transform.position,buttonToTheLeftPos,2f);
+            player.transform.position = Vector3.Lerp(player.transform.position, buttonToTheLeftPos, 2f);
         }
 
         if (Input.GetKeyUp(hitButton))

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 
 public class ButtonHit2 : MonoBehaviour
@@ -8,6 +9,7 @@ public class ButtonHit2 : MonoBehaviour
     public Color originalSprite;
     public GameObject Player;
     public GameObject CollisionParrent;
+    public ScoreStoreage Score;
     private bool imUp = false;
     private bool imDown = false;
 
@@ -44,6 +46,7 @@ public class ButtonHit2 : MonoBehaviour
             {
                 if (CollisionParrent != null)
                 {
+                    Score.increaseScore(1);
                     CollisionParrent.GetComponent<NoteObject2>().Hit = true;
                     CollisionParrent = null;
                 }
@@ -62,7 +65,7 @@ public class ButtonHit2 : MonoBehaviour
         {
             CollisionParrent = collision.gameObject;
             CollisionParrent.GetComponent<NoteObject2>().canHit = true;
-            Debug.Log("Note masuk");
+            // Debug.Log("Note masuk");
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
@@ -73,7 +76,7 @@ public class ButtonHit2 : MonoBehaviour
             {
                 CollisionParrent.GetComponent<NoteObject2>().canHit = false;
                 CollisionParrent = null;
-                Debug.Log("Note keluar");
+                // Debug.Log("Note keluar");
             }
         }
     }
