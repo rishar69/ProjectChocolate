@@ -31,8 +31,7 @@ public class ButtonHit : MonoBehaviour
             buttonToTheLeftPos = new Vector3(player.transform.position.x, transform.position.y, 0f);
             player.transform.position = Vector3.Lerp(player.transform.position,buttonToTheLeftPos,2f);
             AudioManager.SFXManager.PlaySound2D("Miss");
-            hitRb.bodyType = RigidbodyType2D.Kinematic;
-            hitRb.angularVelocity = 3f;
+            
         }
 
         if (Input.GetKeyUp(hitButton))
