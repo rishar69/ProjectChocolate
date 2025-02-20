@@ -4,8 +4,9 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] public GameObject Up;
     [SerializeField] public GameObject Down;
-    public KeyCode buttonW = KeyCode.W;
-    public KeyCode buttonS = KeyCode.S;
+    private Animator anim;
+    private KeyCode buttonW = KeyCode.W;
+    private KeyCode buttonS = KeyCode.S;
     public Vector3 ReduceX;
     public Vector3 OriginalPosition;
     // Timing window (dalam detik)
@@ -19,20 +20,23 @@ public class PlayerController : MonoBehaviour
 
     // Status apakah tombol pertama sudah ditekan
     private bool isFirstButtonPressed = false;
+    public bool isHitting = false;
     public bool isUp = false;
     public bool isDown = false;
     public bool isDouble = false;
 
     void Start()
     {
+        anim = GetComponent<Animator>();
+        anim.SetBool("isMoving", true);
         OriginalPosition = transform.position;
-        ReduceX = new Vector3(0.50f, 0, 0);
+        ReduceX = new Vector3(Up.transform.position.x * 0.25f, 0, 0);
     }
-
     void Update()
     {
-        // Cek jika tombol A atau D ditekan untuk pertama kali
-        if (!isFirstButtonPressed && (Input.GetKeyDown(buttonW) || Input.GetKeyDown(buttonS)))
+        if (Input.GetKeyDown(buttonW) || Input.GetKeyDown(buttonS)) { isHitting = true; Delay(0.001f); }
+        // Cek jika tombol W atau S ditekan untuk pertama kali
+        if (isFirstButtonPressed == false && (Input.GetKeyDown(buttonW) || Input.GetKeyDown(buttonS)))
         {
             // Simpan tombol pertama yang ditekan
             firstButtonPressed = Input.GetKeyDown(buttonW) ? buttonW : buttonS;
@@ -55,7 +59,8 @@ public class PlayerController : MonoBehaviour
                 if (timeDifference <= timingWindow)
                 {
                     isDouble = true;
-                    transform.position = new Vector3(Up.transform.position.x, Up.transform.position.y + Down.transform.position.y, transform.position.z);
+                    transform.position = new Vector3(Up.transform.position.x + ReduceX.x, Up.transform.position.y + Down.transform.position.y, transform.position.z);
+                    anim.SetTrigger("attack");
                     StartCoroutine(MoveBackAfterDelay(0.15f));
                     // Debug.Log("Tombol kedua ditekan dalam timing window.");
                 }
@@ -75,14 +80,16 @@ public class PlayerController : MonoBehaviour
                 if (firstButtonPressed == buttonW)
                 {
                     isUp = true;
-                    transform.position = Up.transform.position - ReduceX;
+                    transform.position = Up.transform.position + ReduceX;
+                    anim.SetTrigger("attack");
                     StartCoroutine(MoveBackAfterDelay(0.15f));
                     // Debug.Log("Tombol kedua ditekan di luar timing window.");
                 }
                 else if (firstButtonPressed == buttonS)
                 {
                     isDown = true;
-                    transform.position = Down.transform.position - ReduceX;
+                    transform.position = Down.transform.position + ReduceX;
+                    anim.SetTrigger("attack");
                     StartCoroutine(MoveBackAfterDelay(0.15f));
                     // Debug.Log("Tombol kedua ditekan di luar timing window.");
                 }
@@ -96,7 +103,21 @@ public class PlayerController : MonoBehaviour
         transform.position = OriginalPosition;
         isUp = false;
         isDown = false;
+        // Wait until the attack animation is finished
+        while (anim.GetCurrentAnimatorStateInfo(0).IsName("Attack") && anim.GetCurrentAnimatorStateInfo(0).normalizedTime < 1.0f)
+        {
+            yield return null;
+        }
+        yield return new WaitForSeconds(delay);
+        transform.position = OriginalPosition;
+        isUp = false;
+        isDown = false;
         isDouble = false;
+    }
+    private IEnumerator Delay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        isHitting = false;
     }
 }
 
