@@ -1,4 +1,5 @@
 using UnityEngine;
+using TMPro;
 using System.Collections;
 
 public class ButtonHit : MonoBehaviour
@@ -25,18 +26,9 @@ public class ButtonHit : MonoBehaviour
         {
             playerAnimator.SetTrigger("pressed");
             spriteRenderer.color = pressedSprite;
-
-            Vector3 targetPosition = new Vector3(player.transform.position.x, transform.position.y, 0f);
-
-            // Stop any existing movement and start a new one
-            StopAllCoroutines();
-            StartCoroutine(MovePlayer(targetPosition));
-
-            // Play sound safely
-            if (AudioManager.SFXManager != null)
-            {
-                AudioManager.SFXManager.PlaySound2D("Miss");
-            }
+            buttonToTheLeftPos = new Vector3(player.transform.position.x, transform.position.y, 0f);
+            //player.transform.position = new Vector3(player.transform.position.x, transform.position.y, 0f);
+            player.transform.position = Vector3.Lerp(player.transform.position,buttonToTheLeftPos,2f);
         }
 
         if (Input.GetKeyUp(hitButton))
