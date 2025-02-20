@@ -4,31 +4,41 @@ public class NoteObject : MonoBehaviour
 {
     public bool canHit;
     public KeyCode hitKey;
-    public Rigidbody2D hitRb;
+    private Rigidbody2D hitRb;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         hitRb = GetComponent<Rigidbody2D>();
 
+        // Subscribe to InputManager's event
+        if (InputManager.Instance != null)
+        {
+            InputManager.Instance.OnButtonPressed += HandleInput;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnDestroy()
     {
-        if (Input.GetKeyDown(hitKey))
+        // Unsubscribe to prevent memory leaks
+        if (InputManager.Instance != null)
         {
-            if(canHit)
-            {
-                hitRb.bodyType = RigidbodyType2D.Dynamic;
-                hitRb.angularVelocity = 3f;
-            }
+            InputManager.Instance.OnButtonPressed -= HandleInput;
+        }
+    }
+
+    private void HandleInput(KeyCode pressedKey)
+    {
+        if (canHit && pressedKey == hitKey)
+        {
+            hitRb.gravityScale = 5f;
+            hitRb.bodyType = RigidbodyType2D.Dynamic;
+            hitRb.linearVelocity = new Vector2(hitRb.linearVelocity.x, 20);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Activator")
+        if (collision.CompareTag("Activator"))
         {
             canHit = true;
         }
@@ -36,6 +46,9 @@ public class NoteObject : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        canHit = false;
+        if (collision.CompareTag("Activator"))
+        {
+            canHit = false;
+        }
     }
 }

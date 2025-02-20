@@ -8,7 +8,7 @@ public class NoteScroller : MonoBehaviour
     void Start()
     {
         noteSpeed = noteSpeed / 60f;
-        noteSpeed = noteSpeed * 1f;
+        noteSpeed = noteSpeed * 2f;
     }
 
     // Update is called once per frame
