@@ -8,9 +8,10 @@ public class AudioManager : MonoBehaviour
     public AudioMixer audioMixer;
     public Slider masterSlider, musicSlider, sfxSlider;
     public static AudioManager Instance;
+    public static SFXManager SFXManager { get; private set; }
+
     public MusicManager MusicManager { get; private set; }
 
-    public static SFXManager SFXManager { get; private set; }
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -21,12 +22,19 @@ public class AudioManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        // Cari MusicManager yang ada di dalam AudioManager
+        
         MusicManager = GetComponentInChildren<MusicManager>();
 
         if (MusicManager == null)
         {
             Debug.LogError("MusicManager not found as a child of AudioManager!");
+        }
+
+        SFXManager = GetComponentInChildren<SFXManager>();
+
+        if (SFXManager == null)
+        {
+            Debug.LogError("SFXManager not found as a child of AudioManager!");
         }
     }
     private void OnEnable()

@@ -2,11 +2,12 @@ using UnityEngine;
 
 public class SFXManager : MonoBehaviour
 {
+    public static SFXManager Instance;
     [SerializeField]
     private SFXLibrary sfxLibrary;
     [SerializeField]
     private AudioSource sfx2DSource;
-
+  
     public void PlaySound3D(AudioClip clip, Vector3 pos)
     {
         if (clip != null)
