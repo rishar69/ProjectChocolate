@@ -1,11 +1,13 @@
 using UnityEngine;
 using System.Collections;
-public class TwoButtonTiming : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private Player player;
+    [SerializeField] public GameObject Up;
+    [SerializeField] public GameObject Down;
     public KeyCode buttonW = KeyCode.W;
     public KeyCode buttonS = KeyCode.S;
     public Vector3 ReduceX;
+    public Vector3 OriginalPosition;
     // Timing window (dalam detik)
     public float timingWindow = 0.065f;
 
@@ -17,9 +19,13 @@ public class TwoButtonTiming : MonoBehaviour
 
     // Status apakah tombol pertama sudah ditekan
     private bool isFirstButtonPressed = false;
+    public bool isUp = false;
+    public bool isDown = false;
+    public bool isDouble = false;
 
     void Start()
     {
+        OriginalPosition = transform.position;
         ReduceX = new Vector3(0.50f, 0, 0);
     }
 
@@ -48,13 +54,14 @@ public class TwoButtonTiming : MonoBehaviour
 
                 if (timeDifference <= timingWindow)
                 {
-                    transform.position = player.Up.position + player.Down.position;
-                    StartCoroutine(MoveBackAfterDelay(0.1f));
-                    Debug.Log("Tombol kedua ditekan dalam timing window.");
+                    isDouble = true;
+                    transform.position = new Vector3(Up.transform.position.x, Up.transform.position.y + Down.transform.position.y, transform.position.z);
+                    StartCoroutine(MoveBackAfterDelay(0.15f));
+                    // Debug.Log("Tombol kedua ditekan dalam timing window.");
                 }
                 else
                 {
-                    Debug.Log("Tombol kedua ditekan di luar timing window.");
+                    // Debug.Log("Tombol kedua ditekan di luar timing window.");
                 }
 
                 // Reset status
@@ -67,15 +74,17 @@ public class TwoButtonTiming : MonoBehaviour
                 // Debug.Log("Timing window terlewat.");
                 if (firstButtonPressed == buttonW)
                 {
-                    transform.position = player.Up.position - ReduceX;
-                    StartCoroutine(MoveBackAfterDelay(0.1f));
-                    Debug.Log("Tombol kedua ditekan di luar timing window.");
+                    isUp = true;
+                    transform.position = Up.transform.position - ReduceX;
+                    StartCoroutine(MoveBackAfterDelay(0.15f));
+                    // Debug.Log("Tombol kedua ditekan di luar timing window.");
                 }
                 else if (firstButtonPressed == buttonS)
                 {
-                    transform.position = player.Down.position - ReduceX;
-                    StartCoroutine(MoveBackAfterDelay(0.1f));
-                    Debug.Log("Tombol kedua ditekan di luar timing window.");
+                    isDown = true;
+                    transform.position = Down.transform.position - ReduceX;
+                    StartCoroutine(MoveBackAfterDelay(0.15f));
+                    // Debug.Log("Tombol kedua ditekan di luar timing window.");
                 }
                 isFirstButtonPressed = false;
             }
@@ -84,7 +93,10 @@ public class TwoButtonTiming : MonoBehaviour
     private IEnumerator MoveBackAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
-        transform.position = player.OriginalPosition;
+        transform.position = OriginalPosition;
+        isUp = false;
+        isDown = false;
+        isDouble = false;
     }
 }
 
