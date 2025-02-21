@@ -1,15 +1,11 @@
 using UnityEngine;
-using System;
 
 public class InputManager : MonoBehaviour
 {
     public static InputManager Instance;
 
-    public KeyCode buttonOne = KeyCode.A;
-    public KeyCode buttonTwo = KeyCode.D;
-
-    // Event that sends the KeyCode of the pressed button
-    public event Action<KeyCode> OnButtonPressed;
+    public KeyCode hitButton1 = KeyCode.A;
+    public KeyCode hitButton2 = KeyCode.D;
 
     private void Awake()
     {
@@ -23,17 +19,18 @@ public class InputManager : MonoBehaviour
         }
     }
 
-    private void Update()
+    public bool IsButton1Pressed()
     {
-        if (Input.GetKeyDown(buttonOne))
-        {
-            OnButtonPressed?.Invoke(buttonOne); // Send buttonOne keycode
-        }
+        return Input.GetKey(hitButton1);
+    }
 
-        if (Input.GetKeyDown(buttonTwo))
-        {
-            OnButtonPressed?.Invoke(buttonTwo); // Send buttonTwo keycode
-        }
+    public bool IsButton2Pressed()
+    {
+        return Input.GetKey(hitButton2);
+    }
+
+    public bool AreBothButtonsPressed()
+    {
+        return IsButton1Pressed() && IsButton2Pressed();
     }
 }
-

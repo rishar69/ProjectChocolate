@@ -432,13 +432,10 @@ MonoBehaviour:
   - groupID: Click
     clips:
     - {fileID: 8300000, guid: dfd6c66c55f0c1546bc7e3c233f86bcc, type: 3}
-  - groupID: Miss
-    clips:
-    - {fileID: 8300000, guid: c00d709d8733f8c4b9ced612f9e77ec4, type: 3}
   - groupID: Hit
     clips:
-    - {fileID: 8300000, guid: 208f382dcc357be479fc06d21941061f, type: 3}
     - {fileID: 8300000, guid: 40754b072cd7f6242bb905d9a5142388, type: 3}
+    - {fileID: 8300000, guid: 208f382dcc357be479fc06d21941061f, type: 3}
 --- !u!1 &342204595
 GameObject:
   m_ObjectHideFlags: 0
