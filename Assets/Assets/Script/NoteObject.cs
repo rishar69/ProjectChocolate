@@ -65,7 +65,6 @@ public class NoteObject : MonoBehaviour
             Debug.Log("perfect hit");
         }
 
-        // Streak should increase only once per hit
         GameManager.Instance.NoteHit();
 
         ActivateGravity();

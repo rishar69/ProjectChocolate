@@ -94,7 +94,9 @@ public class ButtonHitParent : MonoBehaviour
 
     void TriggerSingleButtonAction(KeyCode button)
     {
+
         Debug.Log(button + " pressed alone!");
+        AudioManager.SFXManager?.PlaySound2D("Hit");
         playerAnimator.SetTrigger("pressed");
 
         foreach (ButtonHit buttonScript in childButtons)

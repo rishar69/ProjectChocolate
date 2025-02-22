@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     private int normalHit = 50;
     private int goodHit = 100;
     private int perfectHit = 200;
+    private int multiplier = 1;
 
     private void Awake()
     {
@@ -32,27 +33,52 @@ public class GameManager : MonoBehaviour
         currentStreak++;
         scoreText.text = "Score: " + score;
         UpdateStreakUI();
+        UpdateMultiplier();
     }
 
     public void PerfectNote()
     {
-        score += perfectHit;
+        score += perfectHit * multiplier;
     }
 
     public void GoodHit()
     {
-        score += goodHit;
+        score += goodHit * multiplier;
     }
 
     public void NormalHit()
     {
-        score += normalHit;
+        score += normalHit * multiplier;
     }
 
     public void NoteMiss()
     {
         currentStreak = 0;
         UpdateStreakUI();
+        UpdateMultiplier();
+    }
+
+
+    private void UpdateMultiplier()
+    {
+        if (currentStreak >= 50)
+        {
+            multiplier = 6;
+        }
+        else if (currentStreak >= 25)
+        {
+            multiplier = 4;
+        }
+        else if (currentStreak >= 10)
+        {
+            multiplier = 2;
+        }
+        else
+        {
+            multiplier = 1;
+        }
+
+        multiplierText.text = "x" + multiplier.ToString();
     }
 
     private void UpdateStreakUI()
