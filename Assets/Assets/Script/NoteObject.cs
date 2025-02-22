@@ -4,10 +4,13 @@ public class NoteObject : MonoBehaviour
 {
     public bool canHit;
     public KeyCode hitKey;
+    public Rigidbody2D hitRb;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        hitRb = GetComponent<Rigidbody2D>();
+
     }
 
     // Update is called once per frame
@@ -17,7 +20,8 @@ public class NoteObject : MonoBehaviour
         {
             if(canHit)
             {
-                gameObject.SetActive(false);   
+                hitRb.bodyType = RigidbodyType2D.Dynamic;
+                hitRb.angularVelocity = 3f;
             }
         }
     }

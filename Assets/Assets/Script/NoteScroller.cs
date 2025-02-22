@@ -7,7 +7,8 @@ public class NoteScroller : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        noteSpeed = noteSpeed / 60;
+        noteSpeed = noteSpeed / 60f;
+        noteSpeed = noteSpeed * 1f;
     }
 
     // Update is called once per frame
