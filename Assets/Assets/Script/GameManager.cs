@@ -1,6 +1,5 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -10,11 +9,11 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI multiplierText;
     public GameObject hitStreakUI;
 
-    private int scorePerNote = 100;
+    //private int scorePerNote = 100;
     private int currentStreak = 0;
     private int normalHit = 50;
     private int goodHit = 100;
-    private int PerfectHit = 200;
+    private int perfectHit = 200;
 
     private void Awake()
     {
@@ -28,49 +27,38 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
     public void NoteHit()
     {
         currentStreak++;
-        score += scorePerNote;
-        scoreText.text= "Score: " + score;
+        scoreText.text = "Score: " + score;
+        UpdateStreakUI();
     }
 
     public void PerfectNote()
     {
-        score += PerfectHit;
-        NoteHit();
+        score += perfectHit;
     }
 
     public void GoodHit()
     {
         score += goodHit;
-        NoteHit();
     }
 
     public void NormalHit()
     {
         score += normalHit;
-        NoteHit();
     }
 
     public void NoteMiss()
     {
-        currentStreak = 0 ;
+        currentStreak = 0;
+        UpdateStreakUI();
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void UpdateStreakUI()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {   
-        if(currentStreak == 0)
+        if (currentStreak == 0)
         {
-            
             hitStreakUI.SetActive(false);
         }
         else

@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 0}
   midPoint: {fileID: 0}
+  fallSpeed: 6
   timingWindow: 0.065
 --- !u!1 &4987670087454112518
 GameObject:
