@@ -10,12 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 5634755711119263630}
   - component: {fileID: 1867853852998770610}
-  - component: {fileID: 242140890951533641}
   - component: {fileID: 4068925558714829071}
   - component: {fileID: 3568918381153395502}
   - component: {fileID: 5810001859773551106}
   m_Layer: 0
-  m_Name: Note
+  m_Name: NoteA
   m_TagString: Note
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61,20 +60,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &242140890951533641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3262625792573641634}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65ab4b858bee77545abafc0417a03ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  canHit: 0
-  Hit: 0
 --- !u!58 &4068925558714829071
 CircleCollider2D:
   m_ObjectHideFlags: 0

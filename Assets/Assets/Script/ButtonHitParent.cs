@@ -85,8 +85,8 @@ public class ButtonHitParent : MonoBehaviour
             button.SetPressedState(true);
         }
 
-        MovePlayer(new Vector3(player.transform.position.x, midPoint.transform.position.y + 1, 0f));
         fallSpeed = 0;
+        MovePlayer(new Vector3(player.transform.position.x, midPoint.transform.position.y + 1, 0f));
 
         StartCoroutine(ResetButtonsAfterDelay());
         StartCoroutine(ResetFallSpeed());
@@ -120,7 +120,7 @@ public class ButtonHitParent : MonoBehaviour
 
     IEnumerator ResetFallSpeed()
     {
-        yield return new WaitForSeconds(0.4f);
+        yield return new WaitForSeconds(0.6f);
         fallSpeed = 10f;
     }
 

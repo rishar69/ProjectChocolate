@@ -6,7 +6,7 @@ public class NoteObject : MonoBehaviour
     public bool canHit;
     public KeyCode hitKey;
     private Rigidbody2D hitRb;
-    private bool isHit = false;  // Prevent multiple hits
+    private bool isHit = false;  
     private bool bothButtonsLogged;
     public GameObject goodEffect, hitEffect, perfectEffect, missEffect;
 
@@ -19,49 +19,50 @@ public class NoteObject : MonoBehaviour
     {
         if (canHit && Input.GetKeyDown(hitKey) && !isHit)
         {
-            isHit = true;  // Mark as hit so it doesn't get hit again
+            isHit = true;  
             HitNote();
         }
 
-        CheckBothButtonsPressed();
     }
 
-    private void CheckBothButtonsPressed()
-    {
-        if (InputManager.Instance != null && InputManager.Instance.AreBothButtonsPressed())
-        {
-            if (!bothButtonsLogged)
-            {
-                Debug.Log("Both buttons are pressed!");
-                bothButtonsLogged = true;
-            }
-        }
-        else
-        {
-            bothButtonsLogged = false;
-        }
-    }
+    //private void CheckBothButtonsPressed()
+    //{
+    //    if (InputManager.Instance != null && InputManager.Instance.AreBothButtonsPressed())
+    //    {
+    //        if (!bothButtonsLogged)
+    //        {
+    //            Debug.Log("Both buttons are pressed!");
+    //            bothButtonsLogged = true;
+    //        }
+    //    }
+    //    else
+    //    {
+    //        bothButtonsLogged = false;
+    //    }
+    //}
 
     private void HitNote()
     {
         float posX = Mathf.Abs(transform.position.x);
+        Vector3 posUp = new Vector3(transform.position.x, transform.position.y +1, transform.position.z);
+
 
         if (posX >= 0.50f)
         {
             GameManager.Instance.NormalHit();
-            Instantiate(hitEffect, transform.position, hitEffect.transform.rotation);
+            Instantiate(hitEffect, posUp, hitEffect.transform.rotation);
             Debug.Log("hit");
         }
         else if (posX > 0.25f)
         {
             GameManager.Instance.GoodHit();
-            Instantiate(goodEffect, transform.position, goodEffect.transform.rotation);
+            Instantiate(goodEffect, posUp, goodEffect.transform.rotation);
             Debug.Log("good hit");
         }
         else
         {
             GameManager.Instance.PerfectNote();
-            Instantiate(perfectEffect, transform.position, perfectEffect.transform.rotation);
+            Instantiate(perfectEffect, posUp, perfectEffect.transform.rotation);
             Debug.Log("perfect hit");
         }
 
