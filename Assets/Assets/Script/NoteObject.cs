@@ -102,4 +102,9 @@ public class NoteObject : MonoBehaviour
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);
     }
+
+    public void KillMySelf()
+    {
+        Destroy(gameObject);
+    }
 }
