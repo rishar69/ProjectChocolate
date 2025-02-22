@@ -5,25 +5,23 @@ public class ButtonHitParent : MonoBehaviour
 {
     private ButtonHit[] childButtons;
     private Animator playerAnimator;
+    private Rigidbody2D playerRb;
+    private bool isFirstButtonPressed;
+    private KeyCode firstButton;
+    private float firstPressTime;
+    private bool pendingSingleAction;
 
     public GameObject player;
     public GameObject midPoint;
     public float fallSpeed = 6f;
-
-    private Rigidbody2D playerRb;
-    private bool isFirstButtonPressed = false;
-    private KeyCode firstButton;
-    private float firstPressTime;
-    public float timingWindow = 0.065f; // Time window for detecting double press
-    private bool pendingSingleAction = false; // Flag to delay single action execution
+    public float timingWindow = 0.065f;
 
     void Start()
     {
         playerRb = player.GetComponent<Rigidbody2D>();
         playerRb.gravityScale = 0;
-
         playerAnimator = player.GetComponent<Animator>();
-        childButtons = GetComponentsInChildren<ButtonHit>(); // Get all child ButtonHit scripts
+        childButtons = GetComponentsInChildren<ButtonHit>();
     }
 
     void FixedUpdate()
@@ -46,38 +44,29 @@ public class ButtonHitParent : MonoBehaviour
             firstButton = Input.GetKeyDown(hitButton1) ? hitButton1 : hitButton2;
             firstPressTime = Time.time;
             isFirstButtonPressed = true;
-            pendingSingleAction = true; // Mark single action as pending
+            pendingSingleAction = true;
 
             StartCoroutine(ExecuteSingleActionAfterDelay(firstButton));
         }
 
-        if (isFirstButtonPressed)
+        if (isFirstButtonPressed && Input.GetKeyDown((firstButton == hitButton1) ? hitButton2 : hitButton1))
         {
-            KeyCode secondButton = (firstButton == hitButton1) ? hitButton2 : hitButton1;
-
-            if (Input.GetKeyDown(secondButton))
+            if (Time.time - firstPressTime <= timingWindow)
             {
-                float timeDiff = Time.time - firstPressTime;
-                if (timeDiff <= timingWindow)
-                {
-                    pendingSingleAction = false; // Cancel single action
-                    TriggerBothButtonAction();
-                    isFirstButtonPressed = false;
-                    return;
-                }
-            }
-
-            if (Time.time - firstPressTime > timingWindow)
-            {
+                pendingSingleAction = false;
+                TriggerBothButtonAction();
                 isFirstButtonPressed = false;
             }
+        }
+        else if (Time.time - firstPressTime > timingWindow)
+        {
+            isFirstButtonPressed = false;
         }
     }
 
     IEnumerator ExecuteSingleActionAfterDelay(KeyCode button)
     {
         yield return new WaitForSeconds(timingWindow);
-
         if (pendingSingleAction)
         {
             TriggerSingleButtonAction(button);
@@ -87,11 +76,7 @@ public class ButtonHitParent : MonoBehaviour
 
     void TriggerBothButtonAction()
     {
-        if(AudioManager.SFXManager !=  null)
-        {
-        AudioManager.SFXManager.PlaySound2D("Hit");
-        }
-
+        AudioManager.SFXManager?.PlaySound2D("Hit");
         Debug.Log("Both buttons pressed together!");
         playerAnimator.SetTrigger("bothPressed");
 
@@ -100,35 +85,30 @@ public class ButtonHitParent : MonoBehaviour
             button.SetPressedState(true);
         }
 
-        Vector3 targetPosition = new Vector3(player.transform.position.x, midPoint.transform.position.y +1, 0f);
-        MovePlayer(targetPosition);
+        MovePlayer(new Vector3(player.transform.position.x, midPoint.transform.position.y + 1, 0f));
         fallSpeed = 0;
 
         StartCoroutine(ResetButtonsAfterDelay());
-
-        StartCoroutine(testing());
+        StartCoroutine(ResetFallSpeed());
     }
 
     void TriggerSingleButtonAction(KeyCode button)
     {
         Debug.Log(button + " pressed alone!");
         playerAnimator.SetTrigger("pressed");
-        
+
         foreach (ButtonHit buttonScript in childButtons)
         {
             if (buttonScript.hitButton == button)
             {
                 buttonScript.SetPressedState(true);
-
-                Vector3 targetPosition = new Vector3(player.transform.position.x, buttonScript.transform.position.y + 1, 0f);
-                MovePlayer(targetPosition);
+                MovePlayer(new Vector3(player.transform.position.x, buttonScript.transform.position.y + 1, 0f));
             }
         }
         fallSpeed = 0;
 
         StartCoroutine(ResetButtonsAfterDelay());
-        StartCoroutine(testing());
-
+        StartCoroutine(ResetFallSpeed());
     }
 
     private void MovePlayer(Vector3 target)
@@ -136,10 +116,10 @@ public class ButtonHitParent : MonoBehaviour
         player.transform.position = target;
     }
 
-    IEnumerator testing()
+    IEnumerator ResetFallSpeed()
     {
         yield return new WaitForSeconds(0.4f);
-        fallSpeed = 10f ;
+        fallSpeed = 10f;
     }
 
     IEnumerator ResetButtonsAfterDelay()
