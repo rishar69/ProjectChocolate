@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      muse-dash-gameplay_0: 3526558899439362189
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

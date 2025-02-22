@@ -18,7 +18,7 @@ public class NoteObject : MonoBehaviour
     {
         if (Input.GetKeyDown(hitKey))
         {
-            if(canHit)
+            if (canHit)
             {
                 hitRb.bodyType = RigidbodyType2D.Dynamic;
                 hitRb.angularVelocity = 3f;
@@ -28,7 +28,7 @@ public class NoteObject : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Activator")
+        if (collision.tag == "Activator")
         {
             canHit = true;
         }
@@ -37,5 +37,10 @@ public class NoteObject : MonoBehaviour
     private void OnTriggerExit2D(Collider2D collision)
     {
         canHit = false;
+    }
+
+    public void KillMySelf()
+    {
+        Destroy(gameObject);
     }
 }
