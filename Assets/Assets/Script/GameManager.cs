@@ -1,5 +1,8 @@
+using System.IO;
 using TMPro;
 using UnityEngine;
+
+
 
 public class GameManager : MonoBehaviour
 {
@@ -10,6 +13,12 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI multiplierText;
     public GameObject hitStreakUI;
     public GameObject resultsScreen;
+    public int currentLevel = 1;
+
+    [Header("Save File level")]
+    public LevelData level1 = new LevelData();
+    public LevelData level2 = new LevelData();
+    public LevelData level3 = new LevelData();
 
     [Header("Gameplay Stats")]
     public int score = 0;
@@ -23,9 +32,11 @@ public class GameManager : MonoBehaviour
     private int multiplier = 1;
 
     [Header("Score Values")]
-    private const int NORMAL_HIT_POINTS = 50;
-    private const int GOOD_HIT_POINTS = 100;
-    private const int PERFECT_HIT_POINTS = 200;
+    private const int NORMAL_HIT_POINTS = 100;
+    private const int GOOD_HIT_POINTS = 200;
+    private const int PERFECT_HIT_POINTS = 300;
+    private string savePath;
+
 
     [Header("Results UI")]
     public TextMeshProUGUI hitResultText;
@@ -36,15 +47,161 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI finalScoreText;
     public TextMeshProUGUI percentageHitText;
 
+    private LevelData GetCurrentLevelData()
+    {
+        return currentLevel == 1 ? level1 :
+               currentLevel == 2 ? level2 :
+               level3;
+    }
+
     private void Awake()
     {
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
+
+        savePath = Application.persistentDataPath + "/savefile.dat";
     }
 
     private void Start()
     {
         totalNote = FindObjectsByType<NoteObject>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).Length;
+        ResetGameStats();
+    }
+
+    public void SaveGame()
+    {
+        LevelData currentData = GetCurrentLevelData();
+
+        // Save the NEW stats (overwriting old ones)
+        currentData.score = score;
+        currentData.totalNote = totalNote;
+        currentData.normalHitsTotal = normalHitsTotal;
+        currentData.goodHitsTotal = goodHitsTotal;
+        currentData.perfectHitsTotal = perfectHitsTotal;
+        currentData.missHitsTotal = missHitsTotal;
+        currentData.maxStreak = maxStreak;
+        currentData.multiplier = multiplier;
+
+        using (BinaryWriter writer = new BinaryWriter(File.Open(savePath, FileMode.Create)))
+        {
+            writer.Write(currentLevel);
+            SaveLevel(writer, level1);
+            SaveLevel(writer, level2);
+            SaveLevel(writer, level3);
+        }
+
+        Debug.Log($"Game Saved! Level: {currentLevel}");
+        LogLevelData();
+    }
+
+
+
+
+    public void LoadGame()
+    {
+        if (File.Exists(savePath))
+        {
+            using (BinaryReader reader = new BinaryReader(File.Open(savePath, FileMode.Open)))
+            {
+                currentLevel = reader.ReadInt32();
+                LoadLevel(reader, level1);
+                LoadLevel(reader, level2);
+                LoadLevel(reader, level3);
+            }
+
+            // Apply loaded data
+            LevelData currentData = GetCurrentLevelData();
+
+            // Ensure previous data is reset before loading new values
+            ResetGameStats();
+
+            // Assign loaded values
+            score = currentData.score;
+            totalNote = currentData.totalNote;
+            normalHitsTotal = currentData.normalHitsTotal;
+            goodHitsTotal = currentData.goodHitsTotal;
+            perfectHitsTotal = currentData.perfectHitsTotal;
+            missHitsTotal = currentData.missHitsTotal;
+            maxStreak = currentData.maxStreak;
+            multiplier = currentData.multiplier;
+
+            Debug.Log($"Game Loaded! Current Level: {currentLevel}");
+            LogLevelData();
+        }
+        else
+        {
+            Debug.LogWarning("No save file found.");
+        }
+    }
+
+    public void ShowLevelStats()
+    {
+        LoadGame();
+        LevelData currentData = GetCurrentLevelData();
+
+        // Example: Update UI elements with previous stats
+        scoreText.text = $"Last Score: {currentData.score}";
+    }
+
+    void LogLevelData(int levelNumber, LevelData level)
+    {
+        Debug.Log($" Level {levelNumber} Data:");
+        Debug.Log($"   - Score: {level.score}");
+        Debug.Log($"   - Normal Hits: {level.normalHitsTotal}");
+        Debug.Log($"   - Good Hits: {level.goodHitsTotal}");
+        Debug.Log($"   - Perfect Hits: {level.perfectHitsTotal}");
+        Debug.Log($"   - Missed Hits: {level.missHitsTotal}");
+        Debug.Log($"   - Max Streak: {level.maxStreak}");
+    }
+
+    private void SaveLevel(BinaryWriter writer, LevelData level)
+    {
+        writer.Write(level.score);
+        writer.Write(level.totalNote);
+        writer.Write(level.normalHitsTotal);
+        writer.Write(level.goodHitsTotal);
+        writer.Write(level.perfectHitsTotal);
+        writer.Write(level.missHitsTotal);
+        writer.Write(level.maxStreak);
+        writer.Write(level.multiplier);
+    }
+
+    private void LoadLevel(BinaryReader reader, LevelData level)
+    {
+        level.score = reader.ReadInt32();
+        level.totalNote = reader.ReadSingle();
+        level.normalHitsTotal = reader.ReadSingle();
+        level.goodHitsTotal = reader.ReadSingle();
+        level.perfectHitsTotal = reader.ReadSingle();
+        level.missHitsTotal = reader.ReadSingle();
+        level.maxStreak = reader.ReadSingle();
+        level.multiplier = reader.ReadInt32();
+    }
+
+    private void LogLevelData()
+    {
+        Debug.Log("--- Saved Data ---");
+        LogSingleLevelData(1, level1);
+        LogSingleLevelData(2, level2);
+        LogSingleLevelData(3, level3);
+    }
+
+    private void LogSingleLevelData(int levelNumber, LevelData level)
+    {
+        Debug.Log($"Level {levelNumber}: Score={level.score}, Max Streak={level.maxStreak}, Normal Hits={level.normalHitsTotal}, Good Hits={level.goodHitsTotal}, Perfect Hits={level.perfectHitsTotal}, Misses={level.missHitsTotal}");
+    }
+
+    private void ResetGameStats()
+    {
+        score = 0;
+        normalHitsTotal = 0;
+        goodHitsTotal = 0;
+        perfectHitsTotal = 0;
+        missHitsTotal = 0;
+        maxStreak = 0;
+        currentStreak = 0;
+        multiplier = 1;
+        UpdateUI();
     }
 
     public void NoteHit()
@@ -112,6 +269,8 @@ public class GameManager : MonoBehaviour
         percentageHitText.text = $"{percentHit:F1}%";
 
         rankText.text = GetRank(percentHit);
+
+        SaveGame();
     }
 
     private string GetRank(float percentHit)
