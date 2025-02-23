@@ -3845,6 +3845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3931,6 +3932,18 @@ CanvasRenderer:
   m_GameObject: {fileID: 1611241913}
   m_CullTransparentMesh: 1
 --- !u!1 &1617723869
+=======
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 9}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &1462162865
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3938,6 +3951,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
   - component: {fileID: 1617723870}
   - component: {fileID: 1617723872}
   - component: {fileID: 1617723871}
@@ -4078,6 +4092,11 @@ GameObject:
   - component: {fileID: 1681335273}
   - component: {fileID: 1681335272}
   - component: {fileID: 1681335271}
+=======
+  - component: {fileID: 1462162868}
+  - component: {fileID: 1462162867}
+  - component: {fileID: 1462162866}
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -4085,13 +4104,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
 --- !u!114 &1681335271
+=======
+--- !u!114 &1462162866
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
   m_GameObject: {fileID: 1681335270}
+=======
+  m_GameObject: {fileID: 1462162865}
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
@@ -4116,13 +4143,21 @@ MonoBehaviour:
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
   m_ScrollDeltaPerTick: 6
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
 --- !u!114 &1681335272
+=======
+--- !u!114 &1462162867
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
   m_GameObject: {fileID: 1681335270}
+=======
+  m_GameObject: {fileID: 1462162865}
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
@@ -4131,13 +4166,21 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
 --- !u!4 &1681335273
+=======
+--- !u!4 &1462162868
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
   m_GameObject: {fileID: 1681335270}
+=======
+  m_GameObject: {fileID: 1462162865}
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -4146,6 +4189,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
 --- !u!1 &1718957721
 GameObject:
   m_ObjectHideFlags: 0
@@ -4366,6 +4410,9 @@ CanvasRenderer:
   m_GameObject: {fileID: 1749385035}
   m_CullTransparentMesh: 1
 --- !u!1001 &1749720239
+=======
+--- !u!1001 &1481866752
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -5937,8 +5984,13 @@ SceneRoots:
   - {fileID: 1766355617}
   - {fileID: 9047595993796843063}
   - {fileID: 102205597}
+<<<<<<< HEAD:Assets/Scenes/HitSystemTest.unity
   - {fileID: 1103248341}
   - {fileID: 6314514982938972219}
   - {fileID: 1467456499}
   - {fileID: 1681335273}
   - {fileID: 1419132652411729089}
+=======
+  - {fileID: 161639353}
+  - {fileID: 1462162868}
+>>>>>>> b674f4f18c96da9e7b6842994a99098e38d0b9eb:Assets/Scenes/GameLevel.unity
