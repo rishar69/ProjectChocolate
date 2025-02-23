@@ -85,7 +85,7 @@ public class GameManager : MonoBehaviour
                      currentStreak >= 25 ? 4 :
                      currentStreak >= 10 ? 2 : 1;
 
-        multiplierText.text = $"x{multiplier}";
+        multiplierText.text = $"Multiplier: x{multiplier}";
     }
 
     private void UpdateStreakUI()
