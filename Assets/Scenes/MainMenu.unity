@@ -428,6 +428,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b318b5c3f1aebe4ba55894fb3afcdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundEffects:
+  - groupID: Click
+    clips:
+    - {fileID: 8300000, guid: dfd6c66c55f0c1546bc7e3c233f86bcc, type: 3}
+  - groupID: Hit
+    clips:
+    - {fileID: 8300000, guid: 40754b072cd7f6242bb905d9a5142388, type: 3}
 --- !u!1 &342204595
 GameObject:
   m_ObjectHideFlags: 0
