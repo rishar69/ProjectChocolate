@@ -15,13 +15,10 @@ public class HordeBehavior : MonoBehaviour
         {
             hitKey = KeyCode.D;
         }
-        if (hitKey != null)
+        foreach (Transform note in transform)
         {
-            foreach (Transform note in transform)
-            {
-                NoteObject noteObject = note.GetComponent<NoteObject>();
-                noteObject.hitKey = hitKey;
-            }
+            NoteObject noteObject = note.GetComponent<NoteObject>();
+            noteObject.hitKey = hitKey;
         }
     }
 
