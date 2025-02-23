@@ -123,13 +123,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d6c77813a0eee6478b84159757beca6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
   scoreText: {fileID: 0}
   multiplierText: {fileID: 0}
   hitStreakUI: {fileID: 0}
+  resultsScreen: {fileID: 0}
+  currentLevel: 1
+  level1:
+    score: 0
+    totalNote: 0
+    normalHitsTotal: 0
+    goodHitsTotal: 0
+    perfectHitsTotal: 0
+    missHitsTotal: 0
+    maxStreak: 0
+    multiplier: 0
+  level2:
+    score: 0
+    totalNote: 0
+    normalHitsTotal: 0
+    goodHitsTotal: 0
+    perfectHitsTotal: 0
+    missHitsTotal: 0
+    maxStreak: 0
+    multiplier: 0
+  level3:
+    score: 0
+    totalNote: 0
+    normalHitsTotal: 0
+    goodHitsTotal: 0
+    perfectHitsTotal: 0
+    missHitsTotal: 0
+    maxStreak: 0
+    multiplier: 0
+  score: 0
   totalNote: 0
   normalHitsTotal: 0
   goodHitsTotal: 0
   perfectHitsTotal: 0
   missHitsTotal: 0
-  currentStreak: 0
+  maxStreak: 0
+  hitResultText: {fileID: 0}
+  goodResultText: {fileID: 0}
+  perfectResultText: {fileID: 0}
+  missResultText: {fileID: 0}
+  rankText: {fileID: 0}
+  finalScoreText: {fileID: 0}
+  percentageHitText: {fileID: 0}

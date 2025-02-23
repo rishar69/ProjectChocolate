@@ -9,10 +9,12 @@ public class NoteObject : MonoBehaviour
     private bool isHit = false;  
     private bool bothButtonsLogged;
     public GameObject goodEffect, hitEffect, perfectEffect, missEffect;
+    public Animator spriteAnimator;
 
     void Start()
     {
         hitRb = GetComponent<Rigidbody2D>();
+        spriteAnimator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -74,6 +76,7 @@ public class NoteObject : MonoBehaviour
 
     private void ActivateGravity()
     {
+        spriteAnimator.SetTrigger("Dead");
         hitRb.gravityScale = 5f;
         hitRb.bodyType = RigidbodyType2D.Dynamic;
         hitRb.linearVelocity = new Vector2(hitRb.linearVelocity.x, 20);

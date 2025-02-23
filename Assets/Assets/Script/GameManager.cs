@@ -72,7 +72,6 @@ public class GameManager : MonoBehaviour
     {
         LevelData currentData = GetCurrentLevelData();
 
-        // Save the NEW stats (overwriting old ones)
         currentData.score = score;
         currentData.totalNote = totalNote;
         currentData.normalHitsTotal = normalHitsTotal;
@@ -142,7 +141,6 @@ public class GameManager : MonoBehaviour
         // Example: Update UI elements with previous stats
         scoreText.text = $"Last Score: {currentData.score}";
     }
-
     void LogLevelData(int levelNumber, LevelData level)
     {
         Debug.Log($" Level {levelNumber} Data:");
@@ -283,3 +281,4 @@ public class GameManager : MonoBehaviour
         return "F";
     }
 }
+
