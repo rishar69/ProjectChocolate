@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5954a9c393b348a4e9ba02f8d1c9ab4d
+guid: f18e7f6d4acebf247a34691ae9c290d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7710274870592461822
-    second: request-claim_0
+      213: -2812847961494922373
+    second: Rey-Attack_1_11_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: request-claim_0
+      name: Rey-Attack_1_11_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 1142
-        height: 56
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 508
+        y: 153
+        width: 328
+        height: 352
+      alignment: 9
+      pivot: {x: 0.573413, y: 0.49511364}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20427b12bd99ff490800000000000000
-      internalID: -7710274870592461822
+      spriteID: b7bd9ef9ea1c6f8d0800000000000000
+      internalID: -2812847961494922373
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 103ce9f29b7226e41b8f90b62d18967e
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      request-claim_0: -7710274870592461822
+      Rey-Attack_1_11_0: -2812847961494922373
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

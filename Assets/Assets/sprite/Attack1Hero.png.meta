@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 06f1ddd18cad012419d9833e59381249
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3412750784763392964
+    second: Attack1Hero_0
+  - first:
+      213: -1895519624008426516
+    second: Attack1Hero_1
+  - first:
+      213: -1522466489935775841
+    second: Attack1Hero_2
+  - first:
+      213: -7435976772623556552
+    second: Attack1Hero_3
+  - first:
+      213: -2817064095636362382
+    second: Attack1Hero_4
+  - first:
+      213: -7191132619083168929
+    second: Attack1Hero_5
+  - first:
+      213: -8470893280948775839
+    second: Attack1Hero_6
+  - first:
+      213: -5931319690498579648
+    second: Attack1Hero_7
+  - first:
+      213: -4695855453592463709
+    second: Attack1Hero_8
+  - first:
+      213: 2726538241755715302
+    second: Attack1Hero_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack1Hero_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1464
+        width: 907
+        height: 352
+      alignment: 9
+      pivot: {x: 0.4496332, y: 0.48246175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb490b623b8d8d341bf45fc39c9d1d8b
+      internalID: 1484451776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1114
+        width: 905
+        height: 353
+      alignment: 9
+      pivot: {x: 0.4549789, y: 0.47901323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c93d8f2e6105040bbeaa5ef23248bb
+      internalID: -289708499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_2
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1435
+        width: 879
+        height: 381
+      alignment: 9
+      pivot: {x: 0.4339822, y: 0.5226839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e497758fea44574a9dc000714cd2670
+      internalID: -178212163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_3
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1421
+        width: 307
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2b266c5060dc44e90773d99206c9f2
+      internalID: -760262140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 764
+        width: 903
+        height: 352
+      alignment: 9
+      pivot: {x: 0.4384717, y: 0.48596954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ceb91f1e5430d4fb32176b0cb97088
+      internalID: -2016486851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_5
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1048
+        width: 839
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbceef15e1da8f44a54a89db7a13ecd
+      internalID: -1200531707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_6
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 663
+        width: 477
+        height: 387
+      alignment: 9
+      pivot: {x: 0.26018482, y: 0.50695467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcee55566ac4df499aeaec33c959c29
+      internalID: -994027280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_7
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 383
+        width: 533
+        height: 381
+      alignment: 9
+      pivot: {x: 0.30541798, y: 0.5194433}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c15494a4a59d544a941ed9a6df0fea
+      internalID: -134679932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_8
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 264
+        width: 468
+        height: 400
+      alignment: 9
+      pivot: {x: 0.2641998, y: 0.49663544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ed943e73dabaa4594e29340df3f8c5
+      internalID: 1955421380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 383
+        width: 759
+        height: 380
+      alignment: 9
+      pivot: {x: 0.38745716, y: 0.5518744}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6de3e65358a9f418216660f2121457
+      internalID: 538972746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 497
+        height: 377
+      alignment: 9
+      pivot: {x: 0.29598907, y: 0.53396124}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f2777862522384f8e247d204abcfd1
+      internalID: -1499991638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1Hero_11
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1061
+        width: 325
+        height: 360
+      alignment: 9
+      pivot: {x: 0.6682508, y: 0.51744723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d049ae4e198cf364b878578becc77fb0
+      internalID: -803236359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0149c2653374d3649bddcd8e187f1a5f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Attack1Hero_0: 1484451776
+      Attack1Hero_1: -289708499
+      Attack1Hero_10: -1499991638
+      Attack1Hero_11: -803236359
+      Attack1Hero_2: -178212163
+      Attack1Hero_3: -760262140
+      Attack1Hero_4: -2016486851
+      Attack1Hero_5: -1200531707
+      Attack1Hero_6: -994027280
+      Attack1Hero_7: -134679932
+      Attack1Hero_8: 1955421380
+      Attack1Hero_9: 538972746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

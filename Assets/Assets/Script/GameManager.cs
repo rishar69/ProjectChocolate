@@ -1,3 +1,4 @@
+using System.Collections;
 using System.IO;
 using TMPro;
 using UnityEngine;
@@ -45,7 +46,10 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI missResultText;
     public TextMeshProUGUI rankText;
     public TextMeshProUGUI finalScoreText;
+    public TextMeshProUGUI maxComboText;
     public TextMeshProUGUI percentageHitText;
+
+    public AudioSource bgm;
 
     private LevelData GetCurrentLevelData()
     {
@@ -66,6 +70,11 @@ public class GameManager : MonoBehaviour
     {
         totalNote = FindObjectsByType<NoteObject>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).Length;
         ResetGameStats();
+        StartCoroutine(PlayMusic());
+        if(AudioManager.Instance != null)
+        {
+            AudioManager.Instance.MusicManager.PlayMusic("Test", 0.1f);
+        }
     }
 
     public void SaveGame()
@@ -205,7 +214,12 @@ public class GameManager : MonoBehaviour
     public void NoteHit()
     {
         currentStreak++;
-        maxStreak = Mathf.Max(maxStreak, currentStreak);
+
+        if (currentStreak > maxStreak)
+        {
+            maxStreak = currentStreak;
+        }
+
         UpdateUI();
     }
 
@@ -261,6 +275,7 @@ public class GameManager : MonoBehaviour
         perfectResultText.text = perfectHitsTotal.ToString();
         missResultText.text = missHitsTotal.ToString();
         finalScoreText.text = score.ToString();
+        maxComboText.text = maxStreak.ToString();
 
         float totalHits = normalHitsTotal + goodHitsTotal + perfectHitsTotal;
         float percentHit = (totalHits / totalNote) * 100f;
@@ -280,5 +295,12 @@ public class GameManager : MonoBehaviour
         if (percentHit > 40) return "D";
         return "F";
     }
+
+    IEnumerator PlayMusic()
+    {
+        yield return new WaitForSeconds(3f);
+        bgm.Play();
+    }
+
 }
 

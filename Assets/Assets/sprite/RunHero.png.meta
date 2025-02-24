@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: cf0b4b43af366fd458fb43bd2a363158
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6166989809248167128
+    second: RunHero_0
+  - first:
+      213: 6428755691150342382
+    second: RunHero_1
+  - first:
+      213: -1678653793060368795
+    second: RunHero_2
+  - first:
+      213: -9207173665271473573
+    second: RunHero_3
+  - first:
+      213: 5029287320601377072
+    second: RunHero_4
+  - first:
+      213: 7522811577071934331
+    second: RunHero_5
+  - first:
+      213: 2750289657793674593
+    second: RunHero_6
+  - first:
+      213: -9029311703173137840
+    second: RunHero_7
+  - first:
+      213: -7949356177266538176
+    second: RunHero_8
+  - first:
+      213: 8784695806855173532
+    second: RunHero_9
+  - first:
+      213: -6216048800703029041
+    second: RunHero_10
+  - first:
+      213: 5529660738886673612
+    second: RunHero_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RunHero_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 794
+        width: 250
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b1f4e41737a6aa0800000000000000
+      internalID: -6166989809248167128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_1
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 796
+        width: 249
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee879c67d37873950800000000000000
+      internalID: 6428755691150342382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_2
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 798
+        width: 241
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e46c3e44934b8e0800000000000000
+      internalID: -1678653793060368795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_3
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 801
+        width: 216
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a9928455c893080800000000000000
+      internalID: -9207173665271473573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 242
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03932d9fb2e9bc540800000000000000
+      internalID: 5029287320601377072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_5
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 392
+        width: 233
+        height: 404
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b91939545666860800000000000000
+      internalID: 7522811577071934331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_6
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 394
+        width: 220
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16df8324fddfa2620800000000000000
+      internalID: 2750289657793674593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_7
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 401
+        width: 229
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a761668d071b280800000000000000
+      internalID: -9029311703173137840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_8
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 19
+        width: 241
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4807397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04988fc9ca63ea190800000000000000
+      internalID: -7949356177266538176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 228
+        height: 394
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9557730b4289e970800000000000000
+      internalID: 8784695806855173532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 5
+        width: 235
+        height: 390
+      alignment: 9
+      pivot: {x: 0.55939126, y: 0.49502686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc06a9fbc882cb9a0800000000000000
+      internalID: -6216048800703029041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunHero_11
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 4
+        width: 252
+        height: 389
+      alignment: 9
+      pivot: {x: 0.49580723, y: 0.4891354}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4a3c5052d4dbc40800000000000000
+      internalID: 5529660738886673612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8b85b5631746fe745a71ede5fd913d94
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RunHero_0: -6166989809248167128
+      RunHero_1: 6428755691150342382
+      RunHero_10: -6216048800703029041
+      RunHero_11: 5529660738886673612
+      RunHero_2: -1678653793060368795
+      RunHero_3: -9207173665271473573
+      RunHero_4: 5029287320601377072
+      RunHero_5: 7522811577071934331
+      RunHero_6: 2750289657793674593
+      RunHero_7: -9029311703173137840
+      RunHero_8: -7949356177266538176
+      RunHero_9: 8784695806855173532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
