@@ -2718,8 +2718,6 @@ MonoBehaviour:
   tracks:
   - trackName: MusicMenu
     clip: {fileID: 8300000, guid: fd50ac31394c1df4dbd1dbb36022b73d, type: 3}
-  - trackName: TestMusic
-    clip: {fileID: 8300000, guid: c6cd5ab1865a2d941993cb326592b44a, type: 3}
 --- !u!1 &1694942772
 GameObject:
   m_ObjectHideFlags: 0

@@ -78,7 +78,7 @@ public class ButtonHitParent : MonoBehaviour
     {
         AudioManager.SFXManager?.PlaySound2D("Hit");
         Debug.Log("Both buttons pressed together!");
-        playerAnimator.SetTrigger("bothPressed");
+        playerAnimator.SetTrigger("attack2");
 
         foreach (ButtonHit button in childButtons)
         {
@@ -86,7 +86,7 @@ public class ButtonHitParent : MonoBehaviour
         }
 
         fallSpeed = 0;
-        MovePlayer(new Vector3(player.transform.position.x, midPoint.transform.position.y + 1, 0f));
+        MovePlayer(new Vector3(player.transform.position.x, midPoint.transform.position.y, 0f));
 
         StartCoroutine(ResetButtonsAfterDelay());
         StartCoroutine(ResetFallSpeed());
@@ -94,19 +94,22 @@ public class ButtonHitParent : MonoBehaviour
 
     void TriggerSingleButtonAction(KeyCode button)
     {
-
         Debug.Log(button + " pressed alone!");
         AudioManager.SFXManager?.PlaySound2D("Hit");
-        playerAnimator.SetTrigger("pressed");
+
+        // Randomly choose between attack1 and attack2
+        string attackTrigger = Random.value > 0.5f ? "attack1" : "attack2";
+        playerAnimator.SetTrigger(attackTrigger);
 
         foreach (ButtonHit buttonScript in childButtons)
         {
             if (buttonScript.hitButton == button)
             {
                 buttonScript.SetPressedState(true);
-                MovePlayer(new Vector3(player.transform.position.x, buttonScript.transform.position.y + 1, 0f));
+                MovePlayer(new Vector3(player.transform.position.x, buttonScript.transform.position.y, 0f));
             }
         }
+
         fallSpeed = 0;
 
         StartCoroutine(ResetButtonsAfterDelay());

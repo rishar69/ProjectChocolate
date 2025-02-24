@@ -15,7 +15,6 @@ public class MainMenu : MonoBehaviour
 
     public void PlayButton(string scenename)
     {
-        AudioManager.Instance.MusicManager.PlayMusic("TestMusic", 0.5f);
         SceneManager.LoadScene("HitSystemTest");
     }
 
