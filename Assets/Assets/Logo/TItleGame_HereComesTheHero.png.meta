@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      TItleGame_HereComesTheHero_0: -3461434394146010345
+      TItleGame_HereComesTheHero_1: -689778159156860970
+      TItleGame_HereComesTheHero_2: 4368552856687920940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
