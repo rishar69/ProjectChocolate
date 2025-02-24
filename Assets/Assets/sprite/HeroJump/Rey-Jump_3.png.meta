@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rey-Jump_3_0: 8381400049368050746
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

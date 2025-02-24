@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rey-Attack_2_03_0: -6075513650237216208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

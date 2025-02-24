@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: e8148683ee9e30a44b3f59532f312a63
+guid: 173e3640522f59e4c9fb688e1f9554d2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3534778449568791966
-    second: Rey-Attack_2_08_0
+      213: -247058054503370390
+    second: foreground_0
+  - first:
+      213: -8560154073889714485
+    second: foreground_1
+  - first:
+      213: 7369810071322001645
+    second: foreground_2
+  - first:
+      213: 2685318511921278116
+    second: foreground_3
+  - first:
+      213: -1879965948362583250
+    second: foreground_4
+  - first:
+      213: -7176850576599246902
+    second: foreground_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rey-Attack_2_08_0
+      name: foreground_0
       rect:
         serializedVersion: 2
-        x: 225
-        y: 162
-        width: 570
-        height: 397
+        x: 32
+        y: 0
+        width: 187
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +143,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9df046954e0e0130800000000000000
-      internalID: 3534778449568791966
+      spriteID: a617d662206429cf0800000000000000
+      internalID: -247058054503370390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foreground_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 187
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcec0333939343980800000000000000
+      internalID: -8560154073889714485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foreground_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 307
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de08e338633d64660800000000000000
+      internalID: 7369810071322001645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foreground_3
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 0
+        width: 186
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac29db85fa244520800000000000000
+      internalID: 2685318511921278116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foreground_4
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 0
+        width: 656
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2394023ee409e5e0800000000000000
+      internalID: -1879965948362583250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: foreground_5
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 0
+        width: 223
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac79eb7dc64b66c90800000000000000
+      internalID: -7176850576599246902
       vertices: []
       indices: 
       edges: []
@@ -147,8 +272,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Rey-Attack_2_08_0: 3534778449568791966
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

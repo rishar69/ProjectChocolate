@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e8148683ee9e30a44b3f59532f312a63
+guid: 3f75621a2b2e3014db49edc0ae9728a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3534778449568791966
-    second: Rey-Attack_2_08_0
+      213: 5076752279547266373
+    second: levelground_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rey-Attack_2_08_0
+      name: levelground_0
       rect:
         serializedVersion: 2
-        x: 225
-        y: 162
-        width: 570
-        height: 397
+        x: 0
+        y: 0
+        width: 1920
+        height: 356
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9df046954e0e0130800000000000000
-      internalID: 3534778449568791966
+      spriteID: 545c11bec4f347640800000000000000
+      internalID: 5076752279547266373
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Rey-Attack_2_08_0: 3534778449568791966
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

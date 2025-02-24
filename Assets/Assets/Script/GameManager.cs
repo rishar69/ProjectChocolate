@@ -71,7 +71,10 @@ public class GameManager : MonoBehaviour
         totalNote = FindObjectsByType<NoteObject>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).Length;
         ResetGameStats();
         StartCoroutine(PlayMusic());
-        AudioManager.Instance.MusicManager.PlayMusic("Test", 0.1f);
+        if(AudioManager.Instance != null)
+        {
+            AudioManager.Instance.MusicManager.PlayMusic("Test", 0.1f);
+        }
     }
 
     public void SaveGame()

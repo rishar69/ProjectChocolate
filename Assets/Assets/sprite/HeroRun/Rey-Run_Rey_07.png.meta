@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Rey-Run_Rey_07_0: -1514468642218195321
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
