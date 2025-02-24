@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
 
     public AudioMixer audioMixer;
     public Slider masterSlider, musicSlider, sfxSlider;
+    
     public static AudioManager Instance;
     public static SFXManager SFXManager { get; private set; }
 
