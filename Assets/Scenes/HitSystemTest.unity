@@ -11236,7 +11236,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2696492879192825668, guid: 357b565cc46435241b9d3c3006e04763, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8297485884802427149, guid: 357b565cc46435241b9d3c3006e04763, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17000,6 +17000,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HitCircle
       objectReference: {fileID: 0}
+    - target: {fileID: 3931979960164172311, guid: c916ae31dd906d446b8148b9f48ef4f7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6996074814028323161, guid: 88472bff28044444486d04f6782439a2, type: 3}
+    - target: {fileID: 5936320696717368953, guid: c916ae31dd906d446b8148b9f48ef4f7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2937991068309009351, guid: f3ae7b2b7cd80924794cb89d31b4ff63, type: 3}
     - target: {fileID: 9216675065159164725, guid: c916ae31dd906d446b8148b9f48ef4f7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
