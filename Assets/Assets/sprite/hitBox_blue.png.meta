@@ -1,0 +1,2330 @@
+fileFormatVersion: 2
+guid: f3ae7b2b7cd80924794cb89d31b4ff63
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2937991068309009351
+    second: hitBox_blue_0
+  - first:
+      213: 6451275452764282034
+    second: hitBox_blue_1
+  - first:
+      213: 7999954656022615696
+    second: hitBox_blue_2
+  - first:
+      213: -6459122849016466992
+    second: hitBox_blue_3
+  - first:
+      213: -2712619724511194318
+    second: hitBox_blue_4
+  - first:
+      213: -1123750055280450219
+    second: hitBox_blue_5
+  - first:
+      213: 8907410251888387150
+    second: hitBox_blue_6
+  - first:
+      213: 5128834653007961162
+    second: hitBox_blue_7
+  - first:
+      213: 7823555498707071569
+    second: hitBox_blue_8
+  - first:
+      213: -2232223605775053295
+    second: hitBox_blue_9
+  - first:
+      213: -1880630952787087243
+    second: hitBox_blue_10
+  - first:
+      213: -2892725121839493581
+    second: hitBox_blue_11
+  - first:
+      213: -4321640729873174478
+    second: hitBox_blue_12
+  - first:
+      213: -5108241119707576901
+    second: hitBox_blue_13
+  - first:
+      213: -9032805489042906491
+    second: hitBox_blue_14
+  - first:
+      213: 8002032616991247770
+    second: hitBox_blue_15
+  - first:
+      213: 4551171406431387727
+    second: hitBox_blue_16
+  - first:
+      213: 7770661761363147522
+    second: hitBox_blue_17
+  - first:
+      213: 7960534884226470624
+    second: hitBox_blue_18
+  - first:
+      213: 1921007695818688916
+    second: hitBox_blue_19
+  - first:
+      213: -5377622423878238772
+    second: hitBox_blue_20
+  - first:
+      213: 8186603228552845404
+    second: hitBox_blue_21
+  - first:
+      213: 3188667344908423805
+    second: hitBox_blue_22
+  - first:
+      213: 2156084086849713356
+    second: hitBox_blue_23
+  - first:
+      213: 4061635737048696224
+    second: hitBox_blue_24
+  - first:
+      213: 3895700167728205123
+    second: hitBox_blue_25
+  - first:
+      213: 7811476858724534988
+    second: hitBox_blue_26
+  - first:
+      213: 4482652807218331686
+    second: hitBox_blue_27
+  - first:
+      213: 4739834607371797840
+    second: hitBox_blue_28
+  - first:
+      213: 6382083631186253322
+    second: hitBox_blue_29
+  - first:
+      213: -3450604191431174399
+    second: hitBox_blue_30
+  - first:
+      213: -7805505795583401432
+    second: hitBox_blue_31
+  - first:
+      213: -6054257966182663376
+    second: hitBox_blue_32
+  - first:
+      213: -1791111024851013004
+    second: hitBox_blue_33
+  - first:
+      213: -9218178644915519158
+    second: hitBox_blue_34
+  - first:
+      213: 7271070782232388686
+    second: hitBox_blue_35
+  - first:
+      213: 7361115837923112873
+    second: hitBox_blue_36
+  - first:
+      213: 8934908308433749866
+    second: hitBox_blue_37
+  - first:
+      213: 4347734229796192218
+    second: hitBox_blue_38
+  - first:
+      213: -3721692896698163754
+    second: hitBox_blue_39
+  - first:
+      213: -7393991792557465832
+    second: hitBox_blue_40
+  - first:
+      213: -8338159548000635960
+    second: hitBox_blue_41
+  - first:
+      213: 6199565167115500334
+    second: hitBox_blue_42
+  - first:
+      213: 8452984804746886298
+    second: hitBox_blue_43
+  - first:
+      213: -1437267774491275482
+    second: hitBox_blue_44
+  - first:
+      213: 5287318938970044758
+    second: hitBox_blue_45
+  - first:
+      213: 6242623113335077867
+    second: hitBox_blue_46
+  - first:
+      213: 4056925340060006008
+    second: hitBox_blue_47
+  - first:
+      213: 6825301101026788739
+    second: hitBox_blue_48
+  - first:
+      213: 3390601255283978780
+    second: hitBox_blue_49
+  - first:
+      213: -2066959204522236550
+    second: hitBox_blue_50
+  - first:
+      213: -7366723410259604464
+    second: hitBox_blue_51
+  - first:
+      213: -5698880573599251923
+    second: hitBox_blue_52
+  - first:
+      213: 8001707245151616743
+    second: hitBox_blue_53
+  - first:
+      213: -1895148202153951660
+    second: hitBox_blue_54
+  - first:
+      213: 7823975029226874202
+    second: hitBox_blue_55
+  - first:
+      213: -1517764520901762863
+    second: hitBox_blue_56
+  - first:
+      213: 8291364725381842997
+    second: hitBox_blue_57
+  - first:
+      213: -8887371758782068502
+    second: hitBox_blue_58
+  - first:
+      213: 6047554398860296364
+    second: hitBox_blue_59
+  - first:
+      213: 7352066860375017906
+    second: hitBox_blue_60
+  - first:
+      213: 2793409657143150285
+    second: hitBox_blue_61
+  - first:
+      213: -8227887746223704619
+    second: hitBox_blue_62
+  - first:
+      213: 246142713372471002
+    second: hitBox_blue_63
+  - first:
+      213: -5604692838898974428
+    second: hitBox_blue_64
+  - first:
+      213: 3077230493178412359
+    second: hitBox_blue_65
+  - first:
+      213: 9138486677319065330
+    second: hitBox_blue_66
+  - first:
+      213: -1684166571616276536
+    second: hitBox_blue_67
+  - first:
+      213: 5890533641548148755
+    second: hitBox_blue_68
+  - first:
+      213: -4199922559822806133
+    second: hitBox_blue_69
+  - first:
+      213: -4954564809295543811
+    second: hitBox_blue_70
+  - first:
+      213: 8208751854208235249
+    second: hitBox_blue_71
+  - first:
+      213: 6589353378007866839
+    second: hitBox_blue_72
+  - first:
+      213: -5668347294296427438
+    second: hitBox_blue_73
+  - first:
+      213: -7975129932682040937
+    second: hitBox_blue_74
+  - first:
+      213: 389969015710019190
+    second: hitBox_blue_75
+  - first:
+      213: -1249021200362694471
+    second: hitBox_blue_76
+  - first:
+      213: -4844209720205725698
+    second: hitBox_blue_77
+  - first:
+      213: -9086976561986764383
+    second: hitBox_blue_78
+  - first:
+      213: 9161689125907816668
+    second: hitBox_blue_79
+  - first:
+      213: 3933477442273301944
+    second: hitBox_blue_80
+  - first:
+      213: -6090448495334587239
+    second: hitBox_blue_81
+  - first:
+      213: -6318189073015611758
+    second: hitBox_blue_82
+  - first:
+      213: -798554515225042623
+    second: hitBox_blue_83
+  - first:
+      213: 2681767603671766217
+    second: hitBox_blue_84
+  - first:
+      213: 2212704928420745724
+    second: hitBox_blue_85
+  - first:
+      213: 6991420085641379536
+    second: hitBox_blue_86
+  - first:
+      213: 7293791585700107716
+    second: hitBox_blue_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hitBox_blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 101
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ccb2480b82a37d0800000000000000
+      internalID: -2937991068309009351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 853
+        width: 128
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc563e08d8878950800000000000000
+      internalID: 6451275452764282034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 933
+        width: 111
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096d573cf5c850f60800000000000000
+      internalID: 7999954656022615696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 926
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1b3cf9df59c56a0800000000000000
+      internalID: -6459122849016466992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 939
+        width: 117
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233dacd8bb6da5ad0800000000000000
+      internalID: -2712619724511194318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 927
+        width: 77
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555eea25743a760f0800000000000000
+      internalID: -1123750055280450219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_6
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 942
+        width: 123
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44ea7c3e6a7d9b70800000000000000
+      internalID: 8907410251888387150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_7
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 927
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cd04471f74d2740800000000000000
+      internalID: 5128834653007961162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_8
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 943
+        width: 127
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1523dfc664ad29c60800000000000000
+      internalID: 7823555498707071569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_9
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 927
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e4986157c8501e0800000000000000
+      internalID: -2232223605775053295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 944
+        width: 130
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5707589cc18a6e5e0800000000000000
+      internalID: -1880630952787087243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_11
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 929
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e88e7f3d9fad7d0800000000000000
+      internalID: -2892725121839493581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_12
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 945
+        width: 259
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230bc0937a27604c0800000000000000
+      internalID: -4321640729873174478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_13
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 929
+        width: 85
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb549c824c1eb19b0800000000000000
+      internalID: -5108241119707576901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_14
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 930
+        width: 85
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582266cf34705a280800000000000000
+      internalID: -9032805489042906491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 833
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d4ad0c44eec0f60800000000000000
+      internalID: 8002032616991247770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 853
+        width: 128
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f400240f742092f30800000000000000
+      internalID: 4551171406431387727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_17
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 833
+        width: 83
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bf2c383bfe6db60800000000000000
+      internalID: 7770661761363147522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_18
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 850
+        width: 124
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e29c6cec40897e60800000000000000
+      internalID: 7960534884226470624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_19
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 835
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4998018425ac8aa10800000000000000
+      internalID: 1921007695818688916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_20
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 845
+        width: 120
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdff88b5e8de55b0800000000000000
+      internalID: -5377622423878238772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_21
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 835
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5855fa0348ac9170800000000000000
+      internalID: 8186603228552845404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_22
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 840
+        width: 113
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7297205e0c604c20800000000000000
+      internalID: 3188667344908423805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_23
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 835
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4bc86bd03fbed10800000000000000
+      internalID: 2156084086849713356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_24
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 837
+        width: 106
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5c1d1fe24dd5830800000000000000
+      internalID: 4061635737048696224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_25
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 836
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d8ed889ae401630800000000000000
+      internalID: 3895700167728205123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_26
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 827
+        width: 159
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccac577e0d0f76c60800000000000000
+      internalID: 7811476858724534988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_27
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 821
+        width: 150
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62008a16af4953e30800000000000000
+      internalID: 4482652807218331686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_28
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 815
+        width: 91
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055cf72767647c140800000000000000
+      internalID: 4739834607371797840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 709
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0611b3bf37b19850800000000000000
+      internalID: 6382083631186253322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_30
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 697
+        width: 129
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107554d15cdfc10d0800000000000000
+      internalID: -3450604191431174399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_31
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 692
+        width: 125
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822aff195d54da390800000000000000
+      internalID: -7805505795583401432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_32
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 688
+        width: 119
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b7a13e474fafba0800000000000000
+      internalID: -6054257966182663376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_33
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 687
+        width: 113
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472387a3302b427e0800000000000000
+      internalID: -1791111024851013004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_34
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 686
+        width: 115
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4108b9cc53721080800000000000000
+      internalID: -9218178644915519158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_35
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 687
+        width: 116
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44eea74a5808e460800000000000000
+      internalID: 7271070782232388686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_36
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 688
+        width: 119
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7b8ed8adfe72660800000000000000
+      internalID: 7361115837923112873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_37
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 691
+        width: 124
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6741e074cb2ffb70800000000000000
+      internalID: 8934908308433749866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_38
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 695
+        width: 134
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adffec82f31465c30800000000000000
+      internalID: 4347734229796192218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_39
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 700
+        width: 86
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd16316704e95cc0800000000000000
+      internalID: -3721692896698163754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 57
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f5574c3a3436990800000000000000
+      internalID: -7393991792557465832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_41
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 578
+        width: 151
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3f3ec8118e84c80800000000000000
+      internalID: -8338159548000635960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_42
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 586
+        width: 95
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bfdcb3ca7490650800000000000000
+      internalID: 6199565167115500334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_43
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 588
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c76b2e4e80f4570800000000000000
+      internalID: 8452984804746886298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_44
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 624
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fc456f29ccd0ce0800000000000000
+      internalID: -1437267774491275482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_45
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 589
+        width: 110
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6593183cf84506940800000000000000
+      internalID: 5287318938970044758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 629
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebfaf095a042a650800000000000000
+      internalID: 6242623113335077867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_47
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 589
+        width: 117
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876be8e2a181d4830800000000000000
+      internalID: 4056925340060006008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_48
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 633
+        width: 76
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385c8cb703758be50800000000000000
+      internalID: 6825301101026788739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_49
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 589
+        width: 122
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12f134a0e5dd0f20800000000000000
+      internalID: 3390601255283978780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_50
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 637
+        width: 79
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a756a310e8fa053e0800000000000000
+      internalID: -2066959204522236550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_51
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 589
+        width: 126
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c0ce4c61424c990800000000000000
+      internalID: -7366723410259604464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_52
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 641
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d220e31ff4289e0b0800000000000000
+      internalID: -5698880573599251923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_53
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 590
+        width: 129
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee7ee73856cb0f60800000000000000
+      internalID: 8001707245151616743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 646
+        width: 85
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45eb4e540c413b5e0800000000000000
+      internalID: -1895148202153951660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_55
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 590
+        width: 130
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55289cf5d7549c60800000000000000
+      internalID: 7823975029226874202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_56
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 650
+        width: 86
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0a5fea531dfeae0800000000000000
+      internalID: -1517764520901762863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 485
+        width: 256
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538c697c948d01370800000000000000
+      internalID: 8291364725381842997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_58
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 546
+        width: 86
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8c4f20976b9a480800000000000000
+      internalID: -8887371758782068502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_59
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 542
+        width: 85
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca04be73faa3de350800000000000000
+      internalID: 6047554398860296364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_60
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 485
+        width: 128
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b903994bd9c70660800000000000000
+      internalID: 7352066860375017906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_61
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 538
+        width: 84
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6c926784f24c620800000000000000
+      internalID: 2793409657143150285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_62
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 486
+        width: 125
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5fb8220bba0dd80800000000000000
+      internalID: -8227887746223704619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_63
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 534
+        width: 82
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adeed926e797a6300800000000000000
+      internalID: 246142713372471002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_64
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 487
+        width: 121
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4214046de812832b0800000000000000
+      internalID: -5604692838898974428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_65
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 530
+        width: 79
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d36e564d484ba20800000000000000
+      internalID: 3077230493178412359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_66
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 487
+        width: 116
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe1e3a173d62de70800000000000000
+      internalID: 9138486677319065330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_67
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 526
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf693c1d63a0a8e0800000000000000
+      internalID: -1684166571616276536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_68
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 487
+        width: 109
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31037f933216fb150800000000000000
+      internalID: 5890533641548148755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_69
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 521
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83cc991fa0e6b5c0800000000000000
+      internalID: -4199922559822806133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_70
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 485
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1c94d6e89dd3bb0800000000000000
+      internalID: -4954564809295543811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6396fc1585be170800000000000000
+      internalID: 8208751854208235249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_72
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 376
+        width: 154
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dddda34cf5127b50800000000000000
+      internalID: 6589353378007866839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_73
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 370
+        width: 144
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2543ae30b2cf551b0800000000000000
+      internalID: -5668347294296427438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_74
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 364
+        width: 136
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 799e6ec8495a25190800000000000000
+      internalID: -7975129932682040937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_75
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 360
+        width: 132
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67eedcee0c2796500800000000000000
+      internalID: 389969015710019190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_76
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 357
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8137bf5d59aaee0800000000000000
+      internalID: -1249021200362694471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_77
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 357
+        width: 121
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effa4a9dce8e5ccb0800000000000000
+      internalID: -4844209720205725698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_78
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 356
+        width: 115
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a18a7436f294e180800000000000000
+      internalID: -9086976561986764383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_79
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 357
+        width: 109
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06b4428bbd42f70800000000000000
+      internalID: 9161689125907816668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_80
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 359
+        width: 110
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b556bea4e4869630800000000000000
+      internalID: 3933477442273301944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_81
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 375
+        width: 43
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99405c0bc516a7ba0800000000000000
+      internalID: -6090448495334587239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 76
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e562763884158a0800000000000000
+      internalID: -6318189073015611758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_83
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 238
+        width: 127
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1412a3a36e6fae4f0800000000000000
+      internalID: -798554515225042623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_84
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 243
+        width: 135
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4910b4d6d873520800000000000000
+      internalID: 2681767603671766217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_85
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 250
+        width: 143
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf15643b86b15be10800000000000000
+      internalID: 2212704928420745724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_86
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 256
+        width: 60
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de7f289683860160800000000000000
+      internalID: 6991420085641379536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hitBox_blue_87
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 257
+        width: 95
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c553639dc0c83560800000000000000
+      internalID: 7293791585700107716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
