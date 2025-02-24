@@ -56,6 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "gimjam.sln",
+    "dotnet.defaultSolution": "Chocalate.sln",
     "dotnet.preferCSharpExtension": true
 }

@@ -1,13 +1,17 @@
 using UnityEngine;
 
+
+
 [System.Serializable]
 public struct SoundEffect
 {
     public string groupID;
     public AudioClip[] clips;
 }
+
 public class SFXLibrary : MonoBehaviour
 {
+
     public SoundEffect[] soundEffects;
 
     public AudioClip GetClipFromName(string name)
@@ -22,3 +26,5 @@ public class SFXLibrary : MonoBehaviour
         return null;
     }
 }
+
+
