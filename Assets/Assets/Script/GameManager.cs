@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
         totalNote = FindObjectsByType<NoteObject>(FindObjectsInactive.Exclude, FindObjectsSortMode.None).Length;
         ResetGameStats();
         StartCoroutine(PlayMusic());
-        if(AudioManager.Instance != null)
+        if (AudioManager.Instance != null)
         {
             AudioManager.Instance.MusicManager.PlayMusic("Test", 0.1f);
         }
@@ -243,7 +243,7 @@ public class GameManager : MonoBehaviour
 
     private void UpdateUI()
     {
-        scoreText.text = $"Score: {score}";
+        scoreText.text = $"{score}";
         UpdateStreakUI();
         UpdateMultiplier();
     }
