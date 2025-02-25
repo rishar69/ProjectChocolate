@@ -1,46 +1,34 @@
 fileFormatVersion: 2
-guid: bd441a91af395ba4ba287cf6c91e889a
+guid: e913d3d1e6005a74184d2775353018d2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3217448660624374692
-    second: Logo_TheG_0
+      213: -8151034617594397756
+    second: multiplier_0
   - first:
-      213: 1507186793439163307
-    second: Logo_TheG_1
+      213: 6788256097162806126
+    second: multiplier_1
   - first:
-      213: -998666781801254306
-    second: Logo_TheG_2
+      213: 7530321975346614715
+    second: multiplier_2
   - first:
-      213: -1750733875616185887
-    second: Logo_TheG_3
+      213: 6245911788637625785
+    second: multiplier_3
   - first:
-      213: 6903231648174396828
-    second: Logo_TheG_4
+      213: -1828788568713274883
+    second: multiplier_4
   - first:
-      213: 7272576244524374118
-    second: Logo_TheG_5
+      213: 5763545035031138741
+    second: multiplier_5
   - first:
-      213: 1756967867963981633
-    second: Logo_TheG_6
+      213: 7376354052577783117
+    second: multiplier_6
   - first:
-      213: 1773466906329746306
-    second: Logo_TheG_7
+      213: -3672415841190654924
+    second: multiplier_7
   - first:
-      213: 3682972221835441696
-    second: Logo_TheG_8
-  - first:
-      213: -6633533997697370068
-    second: Logo_TheG_9
-  - first:
-      213: 6564264486659536565
-    second: Logo_TheG_10
-  - first:
-      213: 1848371362044422361
-    second: Logo_TheG_11
-  - first:
-      213: 834620264656656616
-    second: Logo_TheG_12
+      213: -6414815801244348711
+    second: multiplier_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -111,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -149,13 +137,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Logo_TheG_0
+      name: multiplier_0
       rect:
         serializedVersion: 2
-        x: 288
-        y: 503
-        width: 78
-        height: 103
+        x: 95
+        y: 65
+        width: 55
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c548d6c6d735953d0800000000000000
-      internalID: -3217448660624374692
+      spriteID: 4cbbf5a8335b1ee80800000000000000
+      internalID: -8151034617594397756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_TheG_1
+      name: multiplier_1
       rect:
         serializedVersion: 2
-        x: 373
-        y: 503
-        width: 67
-        height: 103
+        x: 148
+        y: 65
+        width: 66
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba3f919376a9ae410800000000000000
-      internalID: 1507186793439163307
+      spriteID: e63c4c364fab43e50800000000000000
+      internalID: 6788256097162806126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_TheG_2
+      name: multiplier_2
       rect:
         serializedVersion: 2
-        x: 451
-        y: 502
-        width: 79
-        height: 79
+        x: 211
+        y: 67
+        width: 40
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e52f0c56ad50422f0800000000000000
-      internalID: -998666781801254306
+      spriteID: bb15ad070f3118860800000000000000
+      internalID: 7530321975346614715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_TheG_3
+      name: multiplier_3
       rect:
         serializedVersion: 2
-        x: 1058
-        y: 211
-        width: 684
-        height: 427
+        x: 247
+        y: 66
+        width: 26
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1e187afd0d424b7e0800000000000000
-      internalID: -1750733875616185887
+      spriteID: 9bd9b24fdafeda650800000000000000
+      internalID: 6245911788637625785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_TheG_4
+      name: multiplier_4
       rect:
         serializedVersion: 2
-        x: 1182
-        y: 566
-        width: 120
-        height: 120
+        x: 270
+        y: 67
+        width: 42
+        height: 54
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -252,20 +240,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c955bafeb943dcf50800000000000000
-      internalID: 6903231648174396828
+      spriteID: df9dc807c76de96e0800000000000000
+      internalID: -1828788568713274883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_TheG_5
+      name: multiplier_5
       rect:
         serializedVersion: 2
-        x: 271
-        y: 133
-        width: 286
-        height: 350
+        x: 309
+        y: 66
+        width: 93
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 668d1d800916de460800000000000000
-      internalID: 7272576244524374118
+      spriteID: 5b15ffb3ca93cff40800000000000000
+      internalID: 5763545035031138741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_TheG_6
+      name: multiplier_6
       rect:
         serializedVersion: 2
-        x: 574
-        y: 133
-        width: 133
-        height: 151
+        x: 398
+        y: 62
+        width: 46
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -296,130 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14fb4c397f0026810800000000000000
-      internalID: 1756967867963981633
+      spriteID: d4d6961ede21e5660800000000000000
+      internalID: 7376354052577783117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Logo_TheG_7
+      name: multiplier_7
       rect:
         serializedVersion: 2
-        x: 732
-        y: 135
-        width: 155
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28b02bc41ce9c9810800000000000000
-      internalID: 1773466906329746306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Logo_TheG_8
-      rect:
-        serializedVersion: 2
-        x: 908
-        y: 138
-        width: 82
-        height: 151
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 026f128f8bb8c1330800000000000000
-      internalID: 3682972221835441696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Logo_TheG_9
-      rect:
-        serializedVersion: 2
-        x: 996
-        y: 135
-        width: 154
-        height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2875cd99f3f0f3a0800000000000000
-      internalID: -6633533997697370068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Logo_TheG_10
-      rect:
-        serializedVersion: 2
-        x: 1178
-        y: 138
-        width: 58
-        height: 202
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5b6bd0b85c3f81b50800000000000000
-      internalID: 6564264486659536565
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Logo_TheG_11
-      rect:
-        serializedVersion: 2
-        x: 1235
-        y: 47
-        width: 570
-        height: 239
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9d8a9afe5fbb6a910800000000000000
-      internalID: 1848371362044422361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Logo_TheG_12
-      rect:
-        serializedVersion: 2
-        x: 1525
+        x: 455
         y: 92
-        width: 336
-        height: 155
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,8 +306,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e8d33d65ba259b00800000000000000
-      internalID: 834620264656656616
+      spriteID: 43c405eef35f80dc0800000000000000
+      internalID: -3672415841190654924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: multiplier_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 70
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de8443140ff9f6a0800000000000000
+      internalID: -6414815801244348711
       vertices: []
       indices: 
       edges: []
@@ -448,19 +348,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Logo_TheG_0: -3217448660624374692
-      Logo_TheG_1: 1507186793439163307
-      Logo_TheG_10: 6564264486659536565
-      Logo_TheG_11: 1848371362044422361
-      Logo_TheG_12: 834620264656656616
-      Logo_TheG_2: -998666781801254306
-      Logo_TheG_3: -1750733875616185887
-      Logo_TheG_4: 6903231648174396828
-      Logo_TheG_5: 7272576244524374118
-      Logo_TheG_6: 1756967867963981633
-      Logo_TheG_7: 1773466906329746306
-      Logo_TheG_8: 3682972221835441696
-      Logo_TheG_9: -6633533997697370068
+      multiplier_0: -8151034617594397756
+      multiplier_1: 6788256097162806126
+      multiplier_2: 7530321975346614715
+      multiplier_3: 6245911788637625785
+      multiplier_4: -1828788568713274883
+      multiplier_5: 5763545035031138741
+      multiplier_6: 7376354052577783117
+      multiplier_7: -3672415841190654924
+      multiplier_8: -6414815801244348711
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
