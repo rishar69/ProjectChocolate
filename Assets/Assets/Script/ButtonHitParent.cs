@@ -79,7 +79,7 @@ public class ButtonHitParent : MonoBehaviour
         AudioManager.SFXManager?.PlaySound2D("Hit");
         Debug.Log("Both buttons pressed together!");
         playerAnimator.SetTrigger("attack2");
-
+        AudioManager.Instance.MusicManager.StopMusic();
         foreach (ButtonHit button in childButtons)
         {
             button.SetPressedState(true);
