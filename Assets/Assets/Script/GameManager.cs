@@ -2,6 +2,7 @@ using System.Collections;
 using System.IO;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
     private const int NORMAL_HIT_POINTS = 100;
     private const int GOOD_HIT_POINTS = 200;
     private const int PERFECT_HIT_POINTS = 300;
+    public int health ;
     private string savePath;
 
 
@@ -48,6 +50,7 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI finalScoreText;
     public TextMeshProUGUI maxComboText;
     public TextMeshProUGUI percentageHitText;
+    public TextMeshProUGUI healthText;
 
     public AudioSource bgm;
 
@@ -73,7 +76,7 @@ public class GameManager : MonoBehaviour
         StartCoroutine(PlayMusic());
         if (AudioManager.Instance != null)
         {
-            AudioManager.Instance.MusicManager.PlayMusic("Test", 0.1f);
+            AudioManager.Instance.MusicManager.StopMusic();
         }
     }
 
@@ -211,6 +214,8 @@ public class GameManager : MonoBehaviour
         UpdateUI();
     }
 
+
+
     public void NoteHit()
     {
         currentStreak++;
@@ -244,6 +249,7 @@ public class GameManager : MonoBehaviour
     private void UpdateUI()
     {
         scoreText.text = $"{score}";
+        healthText.text = $"{health}";
         UpdateStreakUI();
         UpdateMultiplier();
     }
@@ -266,6 +272,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void StopMusic()
+    {
+        bgm.Stop();
+    }
+
     public void LevelFinish()
     {
         resultsScreen.SetActive(true);
@@ -277,13 +288,27 @@ public class GameManager : MonoBehaviour
         finalScoreText.text = score.ToString();
         maxComboText.text = maxStreak.ToString();
 
+        NoteScroller.Instance.noteSpeed = 0f;
+        //Time.timeScale = 0;
+
+        StartCoroutine(BackToMenu());
+
         float totalHits = normalHitsTotal + goodHitsTotal + perfectHitsTotal;
         float percentHit = (totalHits / totalNote) * 100f;
         percentageHitText.text = $"{percentHit:F1}%";
-
+        bgm.Stop();
         rankText.text = GetRank(percentHit);
 
         SaveGame();
+    }
+
+    public void PlayerDamaged()
+    {
+        health--;
+        if(health <= 0)
+        {
+            health = 0;
+        }
     }
 
     private string GetRank(float percentHit)
@@ -300,6 +325,14 @@ public class GameManager : MonoBehaviour
     {
         yield return new WaitForSeconds(3f);
         bgm.Play();
+    }
+
+    
+
+    IEnumerator BackToMenu()
+    {
+        yield return new WaitForSeconds(4f);
+        SceneManager.LoadScene("MainMenu");
     }
 
 }

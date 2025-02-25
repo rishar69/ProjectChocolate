@@ -7,12 +7,13 @@ public class NoteObject : MonoBehaviour
     public KeyCode hitKey;
     private Rigidbody2D hitRb;
     private bool isHit = false;  
-    private bool bothButtonsLogged;
-    public GameObject goodEffect, hitEffect, perfectEffect, missEffect;
+    private Collider2D hitCollider;
+        public GameObject goodEffect, hitEffect, perfectEffect, missEffect;
     public Animator spriteAnimator;
 
     void Start()
     {
+        hitCollider = GetComponent<Collider2D>();
         hitRb = GetComponent<Rigidbody2D>();
         spriteAnimator = GetComponentInChildren<Animator>();
     }
@@ -45,6 +46,8 @@ public class NoteObject : MonoBehaviour
 
     private void HitNote()
     {
+        Destroy(hitCollider);
+
         float posX = Mathf.Abs(transform.position.x);
         Vector3 posUp = new Vector3(transform.position.x, transform.position.y +1, transform.position.z);
 
@@ -95,6 +98,7 @@ public class NoteObject : MonoBehaviour
         if (collision.CompareTag("Activator") && !isHit)
         {
             canHit = false;
+            gameObject.tag = "HittedNote";
             GameManager.Instance.NoteMiss();
             Instantiate(missEffect, transform.position, missEffect.transform.rotation);
             StartCoroutine(WaitToDestroy());

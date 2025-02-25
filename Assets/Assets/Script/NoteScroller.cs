@@ -1,9 +1,19 @@
+using UnityEditor.Overlays;
 using UnityEngine;
 
 public class NoteScroller : MonoBehaviour
 {
     public float noteSpeed;
-    
+
+    public static NoteScroller Instance;
+
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
+
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
